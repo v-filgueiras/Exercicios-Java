@@ -10,4 +10,8 @@ public class ContaBancaria {
         this.numeroConta = numeroConta;
         this.saldoConta = saldoConta;
     }
+
+    public static depositar(double deposito) {
+        this.saldoConta = this.saldoConta - deposito;
+    }
 }
